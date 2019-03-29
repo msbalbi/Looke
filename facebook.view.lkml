@@ -33,7 +33,7 @@ where camp.origem like '%face%'
   }
   dimension: ano {
     type: number
-    sql: ${TABLE}.ano ;;
+    sql: ${TABLE}.ano;;
     value_format: "*0#"
   }
 
