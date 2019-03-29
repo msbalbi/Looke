@@ -28,10 +28,7 @@ where camp.origem like '%face%'
  ;;
   }
 
-  measure: count {
-    type: count
-    drill_fields: [detail*]
-  }
+
   dimension: ano {
     type: number
     sql: ${TABLE}.ano;;
