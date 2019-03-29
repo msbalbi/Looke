@@ -1,4 +1,5 @@
 view: facebook {
+  view_label: "Facebook"
   derived_table: {
     sql: Select ano.ds_ano as ano,
        mes.ds_mes as mes,
